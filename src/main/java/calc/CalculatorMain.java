@@ -30,4 +30,7 @@ public class CalculatorMain {
 	public double mul(double a,double b) {
 		return Math.ceil(a * b);
 	}
+	public int pow(int a, int b){
+		return (int)Math.pow(a, b);
+	}
 }
