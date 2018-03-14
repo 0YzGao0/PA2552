@@ -45,4 +45,8 @@ public class CaculatorTest {
 	public void testSqt() {
 		assertEquals(2, calc.sqt(4));
 	}
+	@Test
+	public void testFloor() {
+		assertEquals(6, (int)calc.mul(3.1, 1.7));
+	}
 }

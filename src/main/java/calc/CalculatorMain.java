@@ -27,4 +27,7 @@ public class CalculatorMain {
 	public int sqt(int a) {
 		return (int)Math.sqrt(a);
 	}
+	public double mul(double a,double b) {
+		return Math.ceil(a * b);
+	}
 }
