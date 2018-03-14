@@ -41,4 +41,8 @@ public class CaculatorTest {
 	public void testRem() {
 		assertEquals(1, calc.rem(19,6));
 	}
+	@Test
+	public void testSqt() {
+		assertEquals(2, calc.sqt(4));
+	}
 }

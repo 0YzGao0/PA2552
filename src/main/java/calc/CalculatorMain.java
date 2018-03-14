@@ -24,4 +24,7 @@ public class CalculatorMain {
 	public int rem(int a, int b) {
 		return a%b;
 	}
+	public int sqt(int a) {
+		return (int)Math.sqrt(a);
+	}
 }
