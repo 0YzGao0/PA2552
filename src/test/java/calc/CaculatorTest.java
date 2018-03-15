@@ -49,7 +49,10 @@ public class CaculatorTest {
 	public void testFloor() {
 		assertEquals(6, (int)calc.mul(3.1, 1.7));
 	}
-
+	@Test
+	public void testPresedence2() {
+		assertEquals(4, calc.sqt(calc.mul(2, 8)));
+	}
 //	@Test
 //	public void testPow() {
 //		assertEquals(8, calc.pow(2,3));
